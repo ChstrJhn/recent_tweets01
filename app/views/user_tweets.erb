@@ -1,0 +1,7 @@
+<% unless @recent_tweets.empty? %>
+<ol>
+  <%@recent_tweets.each do |tweet|%>
+  <li><%=tweet.text%></li>
+  <%end%>
+ </ol>
+<%end%>
