@@ -4,7 +4,7 @@ end
 
 get '/recent_tweets' do
   @user = User.find_or_create_by(twitter_handle: params[:twitter_handle])
-  @recent_tweets = @user.recent_tweets
+  @recent_tweets = @user.tweets
   erb :user_tweets
 end
 
