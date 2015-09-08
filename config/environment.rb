@@ -18,6 +18,7 @@ require 'yaml'
 require 'pg'
 require 'active_record'
 require 'logger'
+require 'twitter_oauth'
 
 require 'sinatra'
 require "sinatra/reloader" if development?

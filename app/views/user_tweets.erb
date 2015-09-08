@@ -1,3 +1,4 @@
+<h1><%=$twitter.user(@user.twitter_handle).name%>'s Recent Tweets</h1>
 <% unless @recent_tweets.empty? %>
 <ol>
   <%@recent_tweets.each do |tweet|%>

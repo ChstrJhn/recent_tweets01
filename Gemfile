@@ -15,6 +15,7 @@ gem 'rake'
 gem 'twitter'
 gem 'byebug'
 gem 'bcrypt'
+gem 'twitter_oauth'
 
 gem 'shotgun'
 
